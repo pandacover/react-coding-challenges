@@ -10,8 +10,8 @@ const _noop = () => { }
 const Cart = ({ items = [], handleUpdateItems = _noop, handleCheckout = _noop }) => {
   const isCheckoutDisabled = items.length === 0;
 
-  const renderItems = useCallback(({ id, name, price, amount }) => {
-    const totalAmount = price * amount;
+  const renderItems = useCallback(({ id, name, price, quantity }) => {
+    const totalAmount = price * quantity;
 
     return (
       <li key={id} className={styles.item}>
@@ -22,13 +22,14 @@ const Cart = ({ items = [], handleUpdateItems = _noop, handleCheckout = _noop })
         <div className="quantityContainer">
           <Quantity
             handleChangeQuantity={handleUpdateItems(id)}
+            quantity={quantity}
             btnText="Update item quantity"
             btnTitle="Adding item will replace quantity"
           />
         </div>
       </li>
     );
-  }, []);
+  }, [items, handleUpdateItems]);
 
   return (
     <section className={styles.cart}>

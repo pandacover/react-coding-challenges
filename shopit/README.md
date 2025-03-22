@@ -1,12 +1,31 @@
-# React + Vite
+# Shopit Coding Challenge 🌙 &nbsp; ![medium](https://img.shields.io/badge/-Medium-yellow) ![time](https://img.shields.io/badge/%E2%8F%B0-30m-blue) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+&nbsp;
+# Goals / Outcomes ✨
+- Using state and global state
+- Manipulation of global states and its side effects
 
-Currently, two official plugins are available:
+&nbsp;
+# Pre-requisites ✅
+- React Context
+- !(Dark Mode conding challange)[https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+&nbsp;
+# Requirements 📖
+- Add functionality to add products to cart
+- Add *states* to manage *cart items*
+- Reset *cart state* on checkout
 
-## Expanding the ESLint configuration
+&nbsp;
+# Think about 💡
+- Where should the state reside
+- How to use and manage state
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+&nbsp;
+# What's Already Been Done 🏁
+- Basic app UI (mobile responsive)
+- Mock products are provided
+
+&nbsp;
+# Screenshots 🌄
+&nbsp;
