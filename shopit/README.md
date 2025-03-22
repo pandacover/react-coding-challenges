@@ -8,7 +8,7 @@
 &nbsp;
 # Pre-requisites ✅
 - React Context
-- !(Dark Mode conding challange)[https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode]
+- [Dark Mode coding challenge](https://github.com/alexgurr/react-coding-challenges/tree/master/dark-mode)
 
 &nbsp;
 # Requirements 📖
@@ -29,3 +29,6 @@
 &nbsp;
 # Screenshots 🌄
 &nbsp;
+![Product_Page](https://github.com/user-attachments/assets/87a72f9d-9d7e-49f6-862b-abcd9d922a86)
+&nbsp;
+![Cart_Page](https://github.com/user-attachments/assets/c12e490b-0b2a-4bed-99f2-e9c072828da0)
