@@ -1,0 +1,17 @@
+.header {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .productItem {
+    width: 400px;
+    margin-bottom: 80px;
+  }
+}

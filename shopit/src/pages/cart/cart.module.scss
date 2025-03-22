@@ -1,0 +1,32 @@
+.cart {
+  max-width: 300px;
+
+  @media only screen and (max-width: 780px) {
+    margin: auto;
+  }
+
+  .header {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & > button {
+      padding: 4px 6px;
+      cursor: pointer;
+    }
+  }
+
+.item {
+  margin-bottom: 40px;
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
